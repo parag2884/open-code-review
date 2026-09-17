@@ -442,8 +442,6 @@ If you want to read along:
 | Session JSONL writer | `internal/session/persist.go` |
 | Web viewer | `internal/viewer/server.go` |
 
-See [Contributing](../contributing/) for build & test instructions.
-
 ## See Also
 
 - [Tools](../tools/) — the six tools the agent loop calls.

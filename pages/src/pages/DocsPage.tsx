@@ -90,7 +90,6 @@ const sidebarTree: SidebarGroup[] = [
           { id: 'sb-cicd', labelKey: 'docs.sidebar.cicd', slug: 'cicd' },
         ],
       },
-      { id: 'sb-contributing', labelKey: 'docs.sidebar.contributing', slug: 'contributing' },
       { id: 'sb-faq', labelKey: 'docs.sidebar.faq', slug: 'faq' },
     ],
   },

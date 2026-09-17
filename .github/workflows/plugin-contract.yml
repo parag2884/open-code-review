@@ -31,8 +31,6 @@ on:
       - "skills/**"
       - "pages/src/content/docs/**"
       - "README*.md"
-      - "CONTRIBUTING*.md"
-      - "AGENTS.md"
       - "scripts/github-actions/check-plugin-contract.*"
       - ".github/workflows/plugin-contract.yml"
   pull_request:
@@ -45,8 +43,6 @@ on:
       - "skills/**"
       - "pages/src/content/docs/**"
       - "README*.md"
-      - "CONTRIBUTING*.md"
-      - "AGENTS.md"
       - "scripts/github-actions/check-plugin-contract.*"
       - ".github/workflows/plugin-contract.yml"
 

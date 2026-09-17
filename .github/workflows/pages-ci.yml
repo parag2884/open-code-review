@@ -56,7 +56,7 @@ jobs:
           FAILED=0
           # `serve -s` rewrites SPA routes to index.html, so this verifies
           # the built shell is reachable and includes bundle references.
-          for path in "/" "/docs/contributing" "/docs/quickstart" "/features"; do
+          for path in "/" "/docs/quickstart" "/features"; do
             if ! BODY=$(curl -sf "http://127.0.0.1:3999${path}"); then
               echo "FAIL: ${path} — not reachable"
               FAILED=1

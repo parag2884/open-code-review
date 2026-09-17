@@ -19,7 +19,6 @@ import enAgentSkill from './en/integrations/agent-skill.md';
 import enClaudeCode from './en/integrations/claude-code.md';
 import enCicd from './en/integrations/ci.md';
 import enDelegate from './en/integrations/delegate.md';
-import enContributing from './en/contributing.md';
 import enFaq from './en/faq.md';
 
 export type DocSlug =
@@ -37,7 +36,6 @@ export type DocSlug =
   | 'claude-code'
   | 'cicd'
   | 'delegate'
-  | 'contributing'
   | 'faq';
 
 type LocalizedDocs = Partial<Record<DocSlug, string>>;
@@ -57,7 +55,6 @@ const enDocs: Record<DocSlug, string> = {
   'claude-code': enClaudeCode,
   'cicd': enCicd,
   'delegate': enDelegate,
-  'contributing': enContributing,
   'faq': enFaq,
 };
 

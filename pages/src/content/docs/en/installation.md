@@ -250,4 +250,3 @@ download via NPM). Removing the directory is a clean uninstall.
 
 - [QuickStart](../quickstart/) — configure an LLM and run your first review.
 - [Configuration](../configuration/) — every env var and config key OCR honors.
-- [Contributing](../contributing/) — build from source, run tests, and hack on OCR.
