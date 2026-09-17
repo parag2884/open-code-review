@@ -5,9 +5,7 @@ sidebar:
 ---
 
 OCR is open source under the Apache-2.0 license. Bug reports, doc fixes,
-and code contributions are all welcome. This page is a quick reference;
-the canonical version lives in
-[`CONTRIBUTING.md`](https://github.com/parag2884/open-code-review/blob/main/CONTRIBUTING.md).
+and code contributions are all welcome.
 
 ## Ways to contribute
 
@@ -255,5 +253,3 @@ description to get started.
 - [Architecture](../architecture/) — the mental model you'll need
   before touching `internal/agent/`.
 - [Tools](../tools/) — what the existing tools look like.
-- Full contributing guide:
-  [CONTRIBUTING.md](https://github.com/parag2884/open-code-review/blob/main/CONTRIBUTING.md)

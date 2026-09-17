@@ -59,7 +59,6 @@ Contributors are anyone who participates in the project, including by:
 Contributors are expected to follow:
 
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
 - [SECURITY.md](.github/SECURITY.md) for vulnerability reporting
 
 ### Maintainers
@@ -92,8 +91,7 @@ is [@lizhengfeng101](https://github.com/lizhengfeng101).
 
 ### Day-to-Day Changes
 
-Most changes are made through the normal pull request workflow described in
-[CONTRIBUTING.md](CONTRIBUTING.md):
+Most changes are made through the normal pull request workflow:
 
 1. discuss the change in an issue when appropriate
 2. submit a pull request
