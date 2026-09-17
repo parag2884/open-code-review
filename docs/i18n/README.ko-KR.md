@@ -4,8 +4,6 @@ Open Code Review는 AI 기반 코드 리뷰 CLI 도구입니다. 이 저장소�
 
 이 도구는 Git diff를 읽고, 변경 파일을 tool-use 기능을 가진 agent를 통해 설정 가능한 LLM으로 전달한 뒤, 라인 단위 위치 정보가 포함된 구조화된 리뷰 코멘트를 생성합니다. agent는 전체 파일 내용 읽기, 코드베이스 검색, 다른 변경 파일 확인 등을 통해 맥락을 확보하고 표면적인 diff 피드백이 아닌 깊이 있는 리뷰를 수행할 수 있습니다. diff 리뷰 외에도 `ocr scan`은 전체 파일을 리뷰할 수 있어, 익숙하지 않은 코드베이스를 감사하거나 의미 있는 diff가 없는 디렉터리를 검토하는 데 유용합니다.
 
-자세한 내용은 [공식 웹사이트](https://open-codereview.ai)를 참조하세요.
-
 ![Highlights](../../imgs/highlights-ko.png)
 
 ## 벤치마크
