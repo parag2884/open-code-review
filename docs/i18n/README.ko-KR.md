@@ -1,29 +1,3 @@
-<div align="center">
-  <a href="https://open-codereview.ai">
-    <img src="../../imgs/logo-core.svg" alt="OpenCodeReview logo" width="180" />
-  </a>
-  <h1>OpenCodeReview</h1>
-</div>
-
-<p align="center">
-  <a href="https://github.com/parag2884/open-code-review/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/parag2884/open-code-review/release.yml?style=flat-square" /></a>
-  <a href="https://github.com/parag2884/open-code-review/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/parag2884/open-code-review?style=flat-square" /></a>
-</p>
-<p align="center">
-  <a href="#supported-platforms"><img alt="Windows" src="https://img.shields.io/badge/Windows-supported-blue.svg" /></a>
-  <a href="#supported-platforms"><img alt="macOS" src="https://img.shields.io/badge/macOS-supported-blue.svg" /></a>
-  <a href="#supported-platforms"><img alt="Linux" src="https://img.shields.io/badge/Linux-supported-blue.svg" /></a>
-  <a href="#supported-agents"><img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg" /></a>
-  <a href="#supported-agents"><img alt="Codex" src="https://img.shields.io/badge/Codex-supported-blueviolet.svg" /></a>
-  <a href="#supported-agents"><img alt="Cursor" src="https://img.shields.io/badge/Cursor-supported-blueviolet.svg" /></a>
-  <a href="#supported-agents"><img alt="Kimi Code" src="https://img.shields.io/badge/Kimi_Code-supported-blueviolet.svg" /></a>
-</p>
-<p align="center">
-  <a href="../../README.md">English</a> | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ja-JP.md">日本語</a> | 한국어 | <a href="README.ru-RU.md">Русский</a>
-</p>
-
----
-
 ## Open Code Review란?
 
 Open Code Review는 AI 기반 코드 리뷰 CLI 도구입니다. 이 저장소는 Apache-2.0 Open Code Review 프로젝트의 파생본이며, Azure OpenAI용 엔터프라이즈 Fluent 포털을 포함합니다. 모델 endpoint만 설정하면 바로 사용할 수 있습니다.

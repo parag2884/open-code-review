@@ -1,29 +1,3 @@
-<div align="center">
-  <a href="https://open-codereview.ai">
-    <img src="../../imgs/logo-core.svg" alt="OpenCodeReview logo" width="180" />
-  </a>
-  <h1>OpenCodeReview</h1>
-</div>
-
-<p align="center">
-  <a href="https://github.com/parag2884/open-code-review/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/parag2884/open-code-review/release.yml?style=flat-square" /></a>
-  <a href="https://github.com/parag2884/open-code-review/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/parag2884/open-code-review?style=flat-square" /></a>
-</p>
-<p align="center">
-  <a href="#supported-platforms"><img alt="Windows" src="https://img.shields.io/badge/Windows-supported-blue.svg" /></a>
-  <a href="#supported-platforms"><img alt="macOS" src="https://img.shields.io/badge/macOS-supported-blue.svg" /></a>
-  <a href="#supported-platforms"><img alt="Linux" src="https://img.shields.io/badge/Linux-supported-blue.svg" /></a>
-  <a href="#supported-agents"><img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg" /></a>
-  <a href="#supported-agents"><img alt="Codex" src="https://img.shields.io/badge/Codex-supported-blueviolet.svg" /></a>
-  <a href="#supported-agents"><img alt="Cursor" src="https://img.shields.io/badge/Cursor-supported-blueviolet.svg" /></a>
-  <a href="#supported-agents"><img alt="Kimi Code" src="https://img.shields.io/badge/Kimi_Code-supported-blueviolet.svg" /></a>
-</p>
-<p align="center">
-  <a href="../../README.md">English</a> | 简体中文 | <a href="README.ja-JP.md">日本語</a> | <a href="README.ko-KR.md">한국어</a> | <a href="README.ru-RU.md">Русский</a>
-</p>
-
----
-
 ## Open Code Review 是什么？
 
 Open Code Review 是一款 AI 驱动的代码审查 CLI 工具。本仓库是该 Apache-2.0 项目的衍生版本，并附带面向 Azure OpenAI 的企业 Fluent 门户。只需配置一个模型端点即可使用。
