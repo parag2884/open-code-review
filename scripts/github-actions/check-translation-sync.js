@@ -39,16 +39,12 @@ const { execFileSync } = require("child_process");
 // small (paths are relative to the repo root, joined with repoRoot below).
 const README_FILES = [
   "README.md",
-  "docs/i18n/README.zh-CN.md",
-  "docs/i18n/README.ja-JP.md",
-  "docs/i18n/README.ko-KR.md",
-  "docs/i18n/README.ru-RU.md",
 ];
 
 // Docs live under pages/src/content/docs/<locale>/**. English is authored under
 // en/; zh/, ja/, ru/, and ko/ mirror the exact same relative sub-paths.
 const DOCS_EN_PREFIX = "pages/src/content/docs/en/";
-const DOCS_LOCALES = ["zh", "ja", "ru", "ko"];
+const DOCS_LOCALES = [];
 
 // ---------------------------------------------------------------------------
 // Markdown heading parsing

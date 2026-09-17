@@ -12,7 +12,7 @@ export const en = {
 
   // Hero
   'hero.title': 'AI Code Review\nValidated on Millions of Real-World Tasks',
-  'hero.description': 'Open Code Review brings Alibaba\'s battle-tested code review Agent into your workflow. Connect any LLM, keep data fully private, and get review comments developers actually adopt.',
+  'hero.description': 'Open Code Review is an AI-powered code review agent for your workflow. Connect any LLM, keep data fully private, and get review comments developers actually adopt.',
   'hero.quickStart': 'Quick Start',
   'hero.learnMore': 'Learn More',
   'hero.terminal': 'Terminal',
@@ -38,7 +38,7 @@ export const en = {
   // Highlights
   'highlights.stat1Value': '20K+',
   'highlights.stat1Label': 'INTERNAL ACTIVE USERS',
-  'highlights.stat1Caption': 'Battle-tested inside Alibaba Group',
+  'highlights.stat1Caption': 'Used in large production codebases',
   'highlights.stat2Value': '150K+',
   'highlights.stat2Label': 'NPM DOWNLOADS',
   'highlights.stat2Caption': 'Real npm downloads · last 30 days',

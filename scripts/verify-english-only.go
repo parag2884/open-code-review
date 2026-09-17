@@ -72,8 +72,7 @@ var scannedNames = map[string]bool{"Makefile": true}
 // allowedPrefixes exempts paths whose non-English content is expected. Keep
 // each entry narrow and justified; a temporary entry must say what removes it.
 var allowedPrefixes = []struct{ prefix, reason string }{
-	{"pages/src/i18n/", "translated UI copy for the docs site"},
-	{"extensions/vscode/", "TEMPORARY: the extension's comments, test names and zh-cn NLS bundle are still Chinese; drop this entry once they are translated"},
+	{"extensions/vscode/", "TEMPORARY: the extension's comments and test names are still Chinese; drop this entry once they are translated"},
 }
 
 // exemptMarker on a line suppresses the report for that line. The trailing

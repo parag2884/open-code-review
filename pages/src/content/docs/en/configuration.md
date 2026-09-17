@@ -389,7 +389,6 @@ ocr config set custom_providers.my-gateway.extra_headers "x-session-affinity={oc
 it defaults to English when unset:
 
 ```bash
-ocr config set language 中文
 ocr config set language English
 ```
 

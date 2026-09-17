@@ -4,12 +4,8 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { Language, TranslationKeys } from './types';
 import { en } from './en';
-import { zh } from './zh';
-import { ja } from './ja';
-import { ko } from './ko';
-import { ru } from './ru';
 
-const translations: Record<Language, TranslationKeys> = { en, zh, ja, ko, ru };
+const translations: Record<Language, TranslationKeys> = { en };
 
 interface LanguageContextValue {
   language: Language;
@@ -21,24 +17,14 @@ const LanguageContext = createContext<LanguageContextValue | null>(null);
 
 const STORAGE_KEY = 'ocr-lang';
 
-const SUPPORTED_LANGUAGES: Language[] = ['en', 'zh', 'ja', 'ko', 'ru'];
-
-function detectBrowserLanguage(): Language | null {
-  try {
-    for (const lang of navigator.languages ?? [navigator.language]) {
-      const code = lang.toLowerCase().split('-')[0];
-      if (SUPPORTED_LANGUAGES.includes(code as Language)) return code as Language;
-    }
-  } catch {}
-  return null;
-}
+const SUPPORTED_LANGUAGES: Language[] = ['en'];
 
 function getInitialLanguage(): Language {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored && SUPPORTED_LANGUAGES.includes(stored as Language)) return stored as Language;
   } catch {}
-  return detectBrowserLanguage() ?? 'en';
+  return 'en';
 }
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

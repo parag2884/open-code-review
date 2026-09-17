@@ -2,8 +2,6 @@
 
 Thank you for your interest in contributing to OpenCodeReview! Every contribution matters — whether it's fixing a typo, reporting a bug, or implementing a new feature.
 
-[简体中文版](docs/i18n/CONTRIBUTING.zh-CN.md) | [日本語版](docs/i18n/CONTRIBUTING.ja-JP.md) | [한국어](docs/i18n/CONTRIBUTING.ko-KR.md) | [Русский](docs/i18n/CONTRIBUTING.ru-RU.md)
-
 ## Code of Conduct
 
 By participating in this project, you agree to maintain a respectful and inclusive environment. Please be kind and constructive in all interactions.
@@ -173,7 +171,6 @@ Documentation is a crucial part of OpenCodeReview. We welcome improvements to RE
 - Clarifying confusing explanations or adding missing context
 - Adding usage examples for commands or configuration options
 - Updating outdated content (e.g., after a feature change)
-- Translating or improving localized documentation (`docs/i18n/README.zh-CN.md`, `docs/i18n/README.ja-JP.md`, `docs/i18n/README.ko-KR.md`, `docs/i18n/README.ru-RU.md`, `docs/i18n/CONTRIBUTING.zh-CN.md`, `docs/i18n/CONTRIBUTING.ja-JP.md`, `docs/i18n/CONTRIBUTING.ko-KR.md`, `docs/i18n/CONTRIBUTING.ru-RU.md`)
 
 ### Documentation Workflow
 
@@ -185,16 +182,8 @@ Documentation is a crucial part of OpenCodeReview. We welcome improvements to RE
 
 | File                              | Purpose                              |
 | --------------------------------- | ------------------------------------ |
-| `README.md`                       | Main project documentation (English) |
-| `docs/i18n/README.zh-CN.md`       | Chinese translation                  |
-| `docs/i18n/README.ja-JP.md`       | Japanese translation                 |
-| `docs/i18n/README.ko-KR.md`       | Korean translation                   |
-| `docs/i18n/README.ru-RU.md`       | Russian translation                  |
-| `CONTRIBUTING.md`                 | Contribution guide (English)         |
-| `docs/i18n/CONTRIBUTING.zh-CN.md` | Contribution guide (Chinese)         |
-| `docs/i18n/CONTRIBUTING.ja-JP.md` | Contribution guide (Japanese)        |
-| `docs/i18n/CONTRIBUTING.ko-KR.md` | Contribution guide (Korean)          |
-| `docs/i18n/CONTRIBUTING.ru-RU.md` | Contribution guide (Russian)         |
+| `README.md`                       | Main project documentation           |
+| `CONTRIBUTING.md`                 | Contribution guide                   |
 
 ## Submitting Changes
 

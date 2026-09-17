@@ -1,19 +1,10 @@
 // SPDX-License-Identifier: Apache-2.0
 // Copyright 2026 alibaba/open-code-review Contributors
 
-/* Blog content index — imports all markdown files and provides lookup by slug + language */
+/* Blog content index — English posts only. */
 
-// English posts
 import enIntroducingOcr from './en/introducing-ocr-blog.md';
 import enOssRetro from './en/oss-two-month-retrospective.md';
-
-// Chinese posts
-import zhIntroducingOcr from './zh/introducing-ocr-blog.md';
-import zhOssRetro from './zh/oss-two-month-retrospective.md';
-
-// Japanese posts
-import jaIntroducingOcr from './ja/introducing-ocr-blog.md';
-import jaOssRetro from './ja/oss-two-month-retrospective.md';
 
 export type BlogSlug =
   | 'introducing-ocr-blog'
@@ -33,20 +24,8 @@ const enPosts: Record<BlogSlug, string> = {
   'oss-two-month-retrospective': enOssRetro,
 };
 
-const zhPosts: Record<BlogSlug, string> = {
-  'introducing-ocr-blog': zhIntroducingOcr,
-  'oss-two-month-retrospective': zhOssRetro,
-};
-
-const jaPosts: Record<BlogSlug, string> = {
-  'introducing-ocr-blog': jaIntroducingOcr,
-  'oss-two-month-retrospective': jaOssRetro,
-};
-
 const blogMap: Record<string, Record<BlogSlug, string>> = {
   en: enPosts,
-  zh: zhPosts,
-  ja: jaPosts,
 };
 
 function stripFrontmatter(md: string): string {
