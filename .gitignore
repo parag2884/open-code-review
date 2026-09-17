@@ -16,6 +16,7 @@ coverage.html
 pages/package-lock.json
 scripts/hooks/
 scripts/publish/.env.internal
+.env
 CHANGELOG.md
 
 vendor/
@@ -45,3 +46,11 @@ bin/opencodereview
 # Python
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+
+# Enterprise portal local state
+portal/data/
+portal/frontend/node_modules/
+portal/frontend/dist/
+portal/backend/.venv/
