@@ -63,7 +63,3 @@ ocr review --format json --output result.json
 ocr delegate preview
 ocr delegate rule src/main.go src/handler.go
 ```
-
-## 许可证
-
-[Apache-2.0](../../LICENSE)。原始项目归属见 [NOTICE](../../NOTICE)。

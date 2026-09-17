@@ -63,7 +63,3 @@ ocr review --format json --output result.json
 ocr delegate preview
 ocr delegate rule src/main.go src/handler.go
 ```
-
-## License
-
-[Apache-2.0](../../LICENSE). 원 프로젝트 고지는 [NOTICE](../../NOTICE)를 참고하세요.

@@ -63,7 +63,3 @@ ocr review --format json --output result.json
 ocr delegate preview
 ocr delegate rule src/main.go src/handler.go
 ```
-
-## ライセンス
-
-[Apache-2.0](../../LICENSE)。元プロジェクトの帰属は [NOTICE](../../NOTICE) を参照してください。

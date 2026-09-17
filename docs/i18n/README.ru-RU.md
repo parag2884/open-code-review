@@ -63,7 +63,3 @@ ocr review --format json --output result.json
 ocr delegate preview
 ocr delegate rule src/main.go src/handler.go
 ```
-
-## Лицензия
-
-[Apache-2.0](../../LICENSE). Атрибуция исходного проекта — в [NOTICE](../../NOTICE).
